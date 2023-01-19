@@ -74,7 +74,8 @@ Due to the need to use a high-performance graphics accelerator, to perform unit 
 
 <h2>Test №1 (analysis of the human skeleton configuration)</h2>
 Demonstration of the operation of the detector of primary signs, in particular, the analysis of the configuration of the human skeleton. During the test, the operator can visually control the reliable detection of primary features, in particular, the analysis of the configuration of the human skeleton. Such as the tilt of the torso, the shoulders are raised, the arms to the chest, the arms raised, the hand is close to the face. The result of the test "Analysis of the configuration of the human skeleton" is shown in the figure below.
-![image](https://user-images.githubusercontent.com/121159666/211320670-f9adefd3-8967-4f18-98a8-b83805b80759.png)
+
+![image](https://user-images.githubusercontent.com/121159666/213511645-edee8769-5187-43b6-b9ab-5fc500291c4a.png)
 
 <h2>Test №2 (detection of the human face area)</h2>
 Demonstration of the detector operation, in particular - detection of the human face area. During the test, the operator can make a visual check of the reliable detection of a person's face, as well as the effect of shielding on the detection of a person's face. The result of the “Human Face Area Detection” test is shown in the figure below.
