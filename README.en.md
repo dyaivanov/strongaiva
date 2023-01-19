@@ -166,7 +166,7 @@ Detection of problem areas of interaction between decision support systems and o
      <li>peripheral device control example;</li>
      <li>an example of solving the problem of detecting problem areas of interaction between an individual and a DSS.</li>
     </ul>
-These examples are described in detail in paragraph 5.2. The project of the task of monitoring and controlling the emotional states of decision makers when working with machines is located at https://github.com/dyaivanov/strongaiva/TaskMachineControlAI/TaskMachineControlAI.pro
+These examples are described in detail in paragraph 5.2. The project of the task of monitoring and controlling the emotional states of decision makers when working with machines is located at ../strongaiva/TaskMachineControlAI/TaskMachineControlAI.pro
 </p>
 
 <b>Results and their meaningful interpretation</b>
