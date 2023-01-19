@@ -68,7 +68,7 @@ The image size of the face area must be at least 150 pixels in both dimensions.
 Due to the need to use a high-performance graphics accelerator, to perform unit and integration tests, it is necessary to run projects on a computer that meets the specified technical requirements.
 
 <h1>Unit and integration tests and practical tasks</h1>
-To demonstrate the work, you need to install the open computer vision libraries OpenCV 4.5 and OpenPose 1.7. Next, you need to assemble a complex project of tests and tasks (https://github.com/dyaivanov/strongaiva/StrongAIVideoAnalysis.pro) of software modules for the video sequence analysis component using Qt Creator (4.12.3, based on Qt 5.11.0). Upon successful build, the executable files should appear in the .../strongaiva/releases directory in the appropriate subdirectories by the name of the tests. Next, you need to run an automatic check of all tests, the check shows that there are no errors, the successful completion of all tests is shown in the figure below.
+To demonstrate the work, you need to install the open computer vision libraries OpenCV 4.5 and OpenPose 1.7. Next, you need to assemble a complex project of tests and tasks (../strongaiva/StrongAIVideoAnalysis.pro) of software modules for the video sequence analysis component using Qt Creator (4.12.3, based on Qt 5.11.0). Upon successful build, the executable files should appear in the .../strongaiva/releases directory in the appropriate subdirectories by the name of the tests. Next, you need to run an automatic check of all tests, the check shows that there are no errors, the successful completion of all tests is shown in the figure below.
 
 ![image](https://user-images.githubusercontent.com/121159666/211320376-00fd9015-c1e1-4454-83f7-5b836a6d9f25.png)
 
@@ -103,7 +103,7 @@ Demonstration of the detection of problem areas of interaction between an indivi
 ![image](https://user-images.githubusercontent.com/121159666/211324420-f52e7f87-4b8d-4233-b6f3-35fc9ff79f51.png)
 
 <h1>Test cases</h1>
-Unit and integration tests are designed to demonstrate all the main features of the strong AI software library and are test cases. The data (images) contained in the directory https://github.com/dyaivanov/strongaiva/inputdata/ is sent to the input of the examples. Next, output values are considered - input images with superimposed colorographic information about the execution of test cases.
+Unit and integration tests are designed to demonstrate all the main features of the strong AI software library and are test cases. The data (images) contained in the directory ../dyaivanov/strongaiva/inputdata/ is sent to the input of the examples. Next, output values are considered - input images with superimposed colorographic information about the execution of test cases.
 
 <h2>Test №1 (analysis of the human skeleton configuration)</h2>
 Demonstration of the operation of the detector of primary signs, in particular, the analysis of the configuration of the human skeleton. During the test, the operator can visually control the reliable detection of primary features, in particular, the analysis of the configuration of the human skeleton. Such as the tilt of the torso, the shoulders are raised, the arms to the chest, the arms raised, the hand is close to the face. The result of the test "Analysis of the configuration of the human skeleton" is shown in the figure
@@ -132,12 +132,6 @@ Demonstration of work with external peripheral devices. During the test, the ope
 Demonstration of the detection of problem areas of interaction between an individual and the DSS. During the test, the operator can visually control the signs of psycho-emotional states (such as anger, fear and great excitement) on the test dump of the decision maker's state. The result of the test “Detection of problem areas of interaction between an individual and DSS” is shown in the figure
 
 ![image](https://user-images.githubusercontent.com/121159666/211325402-9469fdf0-58f1-45ee-b090-282ba25f8819.png)
-
-
-
-
-
-
 
 <h1>Classes of solving problems</h1>
 <p>The developed software is designed to solve applied problems of hybrid decision making based on the interaction of intelligent decision support systems and other intelligent systems and decision makers based on models of professional behavior and cognitive processes in difficultly formalized tasks with high uncertainty.</p>
