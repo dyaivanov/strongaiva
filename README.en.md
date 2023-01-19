@@ -70,6 +70,7 @@ Due to the need to use a high-performance graphics accelerator, to perform unit 
 <h1>Unit and integration tests and practical tasks</h1>
 To demonstrate the work, you need to install the open computer vision libraries OpenCV 4.5 and OpenPose 1.7. Next, you need to assemble a complex project of tests and tasks (../strongaiva/StrongAIVideoAnalysis.pro) of software modules for the video sequence analysis component using Qt Creator (4.12.3, based on Qt 5.11.0). Upon successful build, the executable files should appear in the .../strongaiva/releases directory in the appropriate subdirectories by the name of the tests. Next, you need to run an automatic check of all tests, the check shows that there are no errors, the successful completion of all tests is shown in the figure below.
 
+
 ![image](https://user-images.githubusercontent.com/121159666/211320376-00fd9015-c1e1-4454-83f7-5b836a6d9f25.png)
 
 <h2>Test №1 (analysis of the human skeleton configuration)</h2>
