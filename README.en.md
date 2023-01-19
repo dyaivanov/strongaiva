@@ -202,7 +202,7 @@ The project of the task of detecting problem areas of interaction between the DS
 <p>The results of solving the problem of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial operator for industrial geodetic work were demonstrated using a small-sized quadrocopter equipped with a television camera. The operator of an unmanned aerial vehicle simulated a situation of unacceptable behavior when working with this control object, as a result, based on the analysis of his emotional state, a command was sent to return to the starting point.</p>
 
 The figures below show photographs when executing an example of solving the problem of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial operator on the example of remote control of a quadrocopter.
-
+ 
 ![image](https://user-images.githubusercontent.com/121159666/212894468-a7978650-a171-42ba-a230-beb9388e1578.png)
 
 ![image](https://user-images.githubusercontent.com/121159666/212894509-6e8902cf-be1f-47ab-8451-4b3e7403b099.png)
