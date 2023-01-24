@@ -1,4 +1,6 @@
+<img src="https://gitlab.actcognitive.org/itmo-sai-code/organ/-/raw/main/docs/AIM-Strong_Sign_Norm-01_Colors.svg" alt="logo">
 <a href="https://github.com/dyaivanov/strongaiva/blob/main/README.ru.md">Russian version</a>
+
 <h1>Video analysis software module for hybrid decision making in the framework of interactive symbiotic work of artificial intelligence and a decision maker</h1>
 
 Component <b>Software for hybrid decision making based on the interaction of AI and decision makers based on models of professional behavior and cognitive processes of decision makers in hard-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers in the framework of interactive joint ("symbiotic") work of the parties ( AI and decision makers)</b> is intended for use in hybrid decision support systems based on the interaction of AI and decision makers based on models of professional behavior and cognitive processes of decision makers in hard-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers within the interactive joint ("symbiotic") work of the parties (AI and decision makers).
