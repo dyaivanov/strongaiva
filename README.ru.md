@@ -1,3 +1,4 @@
+<img src="https://gitlab.actcognitive.org/itmo-sai-code/organ/-/raw/main/docs/AIM-Strong_Sign_Norm-01_Colors.svg" alt="logo">
 <a href="https://github.com/dyaivanov/strongaiva/blob/main/README.en.md">English version</a>
 <h1>Программный модуль анализа видеоизображений для гибридного принятия решений в рамках интерактивной симбиотической работы искусственного интеллекта и лица принимающего решения</h1>
 
