@@ -1,3 +1,4 @@
+The study is supported by the Research Center Strong Artificial Intelligence in Industry of ITMO University.
 <img src="https://gitlab.actcognitive.org/itmo-sai-code/organ/-/raw/main/docs/AIM-Strong_Sign_Norm-01_Colors.svg" alt="logo">
 <a href="https://github.com/dyaivanov/strongaiva/blob/main/README.ru.md">Russian version</a>
 
