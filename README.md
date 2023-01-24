@@ -1,48 +1,49 @@
+Разработка поддерживается исследовательским центром «Сильный искусственный интеллект в промышленности» Университета ИТМО.
 <img src="https://gitlab.actcognitive.org/itmo-sai-code/organ/-/raw/main/docs/AIM-Strong_Sign_Norm-01_Colors.svg" alt="logo">
-<a href="https://github.com/dyaivanov/strongaiva/blob/main/README.ru.md">Russian version</a>
-<h1>Video analysis software module for hybrid decision making in the framework of interactive symbiotic work of artificial intelligence and a decision maker</h1>
+<a href="https://github.com/dyaivanov/strongaiva/blob/main/README.en.md">English version</a>
+<h1>Программный модуль анализа видеоизображений для гибридного принятия решений в рамках интерактивной симбиотической работы искусственного интеллекта и лица принимающего решения</h1>
 
-Component <b>Software for hybrid decision making based on the interaction of AI and decision makers based on models of professional behavior and cognitive processes of decision makers in hard-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers in the framework of interactive joint ("symbiotic") work of the parties ( AI and decision makers)</b> is intended for use in hybrid decision support systems based on the interaction of AI and decision makers based on models of professional behavior and cognitive processes of decision makers in hard-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers within the interactive joint ("symbiotic") work of the parties (AI and decision makers).
-The component was developed in C++ using the libraries OpenCV 4.5, OpenPose 1.7, and placed in this repository. To use it, you need the Qt creator compiler.
+Компонент <b>ПО для гибридного принятия решений на базе взаимодействия ИИ и ЛПР на основе моделей профессионального поведения и когнитивных процессов ЛПР в трудноформализуемых задачах с высокой неопределенностью в части повышения качества взаимодействия ИИ и ЛПР в рамках интерактивной совместной («симбиотической») работы сторон (ИИ и ЛПР)</b> предназначен для применения в системах поддержки принятия гибридного принятия решений на базе взаимодействия ИИ и ЛПР на основе моделей профессионального поведения и когнитивных процессов ЛПР в трудноформализуемых задачах с высокой неопределенностью в части повышения качества взаимодействия ИИ и ЛПР в рамках интерактивной совместной («симбиотической») работы сторон (ИИ и ЛПР).   
+Компонент разработан на языке С++ с использованием библиотек OpenCV 4.5, OpenPose 1.7, и размещен в данном репозитории. Для его использования необходим компилятор Qt creator.
 
-<h1>Purpose of the software component</h1>
-A software component for hybrid decision-making based on the interaction of AI and decision makers based on models of professional behavior and cognitive processes of decision makers in hard-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers in the framework of interactive joint ("symbiotic") work of the parties (AI and decision makers) ) implements the functions of strong AI in terms of interpretable data processing by hybrid and composite AI algorithms that reproduce (simulate) human creative activity in solving non-standard problems of interpreting data, extracting meanings and making decisions under uncertainty, including strong AI algorithms in terms of hybrid decision-making algorithms on the basis of interaction between AI and decision makers based on models of professional behavior and cognitive processes of decision makers in difficult-to-formalizable tasks with high uncertainty in terms of improving the quality of interaction between AI and decision makers in the framework of interactive joint ("symbiotic") work of the parties (AI and LPR).
+<h1>Назначение программного компонента</h1>
+Компонент ПО для гибридного принятия решений на базе взаимодействия ИИ и ЛПР на основе моделей профессионального поведения и когнитивных процессов ЛПР в трудноформализуемых задачах с высокой неопределенностью в части повышения качества взаимодействия ИИ и ЛПР в рамках интерактивной совместной («симбиотической») работы сторон (ИИ и ЛПР) реализует функции сильного  ИИ в части интерпретируемой обработки данных алгоритмами гибридного и композитного ИИ, воспроизводящими (имитирующими) творческую деятельность человека при решении нестандартных задач интерпретации данных, извлечения смыслов и принятия решений в условиях неопределенности, включая алгоритмы сильного ИИ в части алгоритмов гибридного принятия решений на базе взаимодействия ИИ и ЛПР на основе моделей профессионального поведения и когнитивных процессов ЛПР в трудноформализуемых задачах с высокой неопределенностью в части повышения качества взаимодействия ИИ и ЛПР в рамках интерактивной совместной («симбиотической») работы сторон (ИИ и ЛПР).
 
-<h1>Application area</h1> 
-The scope of this component is the development of software for decision support systems in the field of monitoring the preservation of professional reliability and professional health by employees, especially at objects of special responsibility. Such systems will allow remotely and without causing discomfort to employees, to monitor the physical and psychological state of the employee, his functional reserve and the adequacy of the level of functioning of the body to workloads.
+<h1>Область применения</h1> 
+Областью применения данного компонента является разработка программного обеспечения систем поддержки принятия решений в сфере контроля за сохранением работниками профессиональной надежности и профессионального здоровья, особенно на объектах особой ответственности. Такие системы позволят дистанционно и без причинения дискомфорта для работников, осуществлять контроль физического и психологического состояния сотрудника, его функционального резерва и адекватности уровня функционирования организма рабочим нагрузкам.
 
-<h1>Functional conditions of use</h1>
-Functional restrictions on applications are related to the angles of input video data received from video cameras.
-No more than one person should be in the frame at a time.
-The image size of the face area must be at least 150 pixels in both dimensions.
+<h1>Функциональные условия применения</h1>
+Функциональные ограничения на применения связаны с ракурсами входных видеоданных, получаемыми от видеокамер. 
+В кадр одновременно должно попадать не более одного человека. 
+Размер изображения области лица должен быть не менее 150 пикселей по обоим измерениям.
 
-<h1>Technical conditions of application</h1>
+<h1>Технческие условия применения</h1>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td style="width: 14.2857%;">Computer type</td>
+<td style="width: 14.2857%;">Тип компьютера</td>
 <td style="width: 13.8365%;" width="91">
-<p>Number of CPU x number of cores</p>
+<p>Кол-во CPU х кол-во ядер</p>
 </td>
 <td style="width: 14.1509%;" width="91">
-<p>CPU clock frequency, GHz</p>
+<p>Тактовая частота CPU, ГГц</p>
 </td>
 <td style="width: 13.8365%;" width="91">
-<p>Number of GPU x number of cores</p>
+<p>Кол-во GPU x кол-во ядер</p>
 </td>
 <td style="width: 14.1509%;" width="91">
-<p>GPU clock frequency, GHz</p>
+<p>Тактовая частота GPU, ГГц</p>
 </td>
 <td style="width: 15.4088%;" width="91">
-<p>RAM, GB</p>
+<p>Оперативная память, Гб</p>
 </td>
 <td style="width: 14.1509%;" width="91">
-<p>Disk memory, TB</p>
+<p>Дисковая память, Тб</p>
 </td>
 </tr>
 <tr>
 <td style="width: 14.2857%;" width="102">
-<p>Work station</p>
+<p>Рабочая станция</p>
 </td>
 <td style="width: 13.8365%;" width="91">
 <p>1х8</p>
@@ -57,7 +58,7 @@ The image size of the face area must be at least 150 pixels in both dimensions.
 <p>1,6</p>
 </td>
 <td style="width: 15.4088%;" width="91">
-<p>32, video memory at least 8</p>
+<p>32, объем видеопамяти не менее 8</p>
 </td>
 <td style="width: 14.1509%;" width="91">
 <p>1</p>
@@ -66,145 +67,145 @@ The image size of the face area must be at least 150 pixels in both dimensions.
 </tbody>
 </table>
 
-Due to the need to use a high-performance graphics accelerator, to perform unit and integration tests, it is necessary to run projects on a computer that meets the specified technical requirements.
+В связи с необходимостью применения высокопроизводительного графического ускорителя, для выполнения модульных и интеграционных тестов необходимо запускать проекты на компьютере, удовлетворяющем выдвинутым техническим требованиям.
 
-<h1>Unit and integration tests and practical tasks</h1>
-<p>To demonstrate the work, you need to install the open computer vision libraries OpenCV 4.5 and OpenPose 1.7. Next, you need to assemble a complex project of tests and tasks (../strongaiva/StrongAIVideoAnalysis.pro) of software modules for the video sequence analysis component using Qt Creator (4.12.3, based on Qt 5.11.0). Upon successful build, the executable files should appear in the .../strongaiva/releases directory in the appropriate subdirectories by the name of the tests. Next, you need to run an automatic check of all tests, the check shows that there are no errors, the successful completion of all tests is shown in the figure below.</p>
+<h1 id="tests">Модульные и интеграционные тесты и практические задачи</h1>
+Для демонстрации работы необходимо установить открытые библиотеки компьютерного зрения OpenCV 4.5 и OpenPose 1.7. Далее необходимо собрать комплексный проект тестов и задач (../strongaiva/StrongAIVideoAnalysis.pro) программных модулей компонента анализа видеопоследовательностей с использованием Qt Creator (4.12.3, основан на Qt 5.11.0). При успешной сборке должны появится исполняемые файлы в директории .../strongaiva/releases в соответствующих поддиректориях по названию тестов. Далее необходимо произвести запуск автоматической проверки всех тестов, проверка показывает, что ошибок нет, успешное выполнение всех тестов показано на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211320376-00fd9015-c1e1-4454-83f7-5b836a6d9f25.png)
 
-<h2>Test №1 (analysis of the human skeleton configuration)</h2>
-Demonstration of the operation of the detector of primary signs, in particular, the analysis of the configuration of the human skeleton. During the test, the operator can visually control the reliable detection of primary features, in particular, the analysis of the configuration of the human skeleton. Such as the tilt of the torso, the shoulders are raised, the arms to the chest, the arms raised, the hand is close to the face. The result of the test "Analysis of the configuration of the human skeleton" is shown in the figure below.
+<h2>Тест №1 (анализ конфигурации скелета человека)</h2>
+Демонстрация работы детектора первичных признаков, в частности, анализ конфигурации скелета человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, анализа конфигурации скелета человека. Таких как наклон туловища, плечи подняты, руки к груди, поднятые руки, рука приближена к лицу. Результат выполнения теста “Анализ конфигурации скелета человека” показан на рисунке нже.
 
-![image](https://user-images.githubusercontent.com/121159666/213511645-edee8769-5187-43b6-b9ab-5fc500291c4a.png)
+![image](https://user-images.githubusercontent.com/121159666/211320670-f9adefd3-8967-4f18-98a8-b83805b80759.png)
 
-<h2>Test №2 (detection of the human face area)</h2>
-Demonstration of the detector operation, in particular - detection of the human face area. During the test, the operator can make a visual check of the reliable detection of a person's face, as well as the effect of shielding on the detection of a person's face. The result of the “Human Face Area Detection” test is shown in the figure below.
+<h2>Тест №2 (детектирование области лица человека)</h2>
+Демонстрация работы детектора, в частности -	детектирование области лица человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования лица человека, а также влияние экранирования на детектирование лица человека. Результат выполнения теста “Детектирование области лица человека” показан на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211323892-ac978d33-8a87-4066-9045-25f8b9e565a9.png)
 
 
-<h2>Test №3 (detection of the centers of the pupils of the eyes, determination of the direction of a person's gaze)</h2>
-Demonstration of the work of detecting the centers of the pupils of the eyes, determining the direction of a person's gaze. In the process of performing the test, the operator can visually control the reliable detection of primary signs, in particular, the detection of the centers of the pupils of the eyes, the determination of the direction of a person's gaze. The result of the test “Detecting the centers of the pupils of the eyes, determining the direction of a person’s gaze” is shown in the figure below.
+<h2>Тест №3 (детектирование центров зрачков глаз, определение направления взгляда человека)</h2>
+Демонстрация работы детектирования центров зрачков глаз, определение направления взгляда человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, детектирование центров зрачков глаз, определение направления взгляда человека. Результат выполнения теста “Детектирование центров зрачков глаз, определение направления взгляда человека” показан на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211324013-8440789c-6e2d-4faa-bd4b-dfb3880da193.png)
 
-<h2>Test №4 (analysis of human facial expressions)</h2>
-Demonstration of the operation of the detector of primary signs, in particular, the analysis of facial expressions of a person's face. In the process of performing the test, the operator can visually control the reliable detection of primary signs, in particular, the analysis of facial expressions of a person's face. Analyze the detection of mimic signs such as head tilt, head down, head to the left, head to the right, eyebrows raised, palpebral fissure narrowed, look at the camera, look at the floor, look to the left, look to the right, single blink, mouth open. The result of the test "Analysis of human facial expressions" is shown in the figure below.
+<h2>Тест №4 (анализ мимики лица человека)</h2>
+Демонстрация работы детектора первичных признаков, в частности, анализ мимики лица человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, анализ мимики лица человека. Произвести анализ детектирования мимических признаков таких как наклон головы, голова опущена, голова влево, голова вправо, брови приподняты, сужена глазная щель, взгляд в камеру, взгляд в пол, взгляд влево, взгляд вправо, однократное моргание, рот раскрыт. Результат выполнения теста “Анализ мимики лица человека” показан на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211324116-d0fd1703-3ba9-41e5-886a-427d4d83ce03.png)
 
-<h2>Test №5 (working with external peripherals)</h2>
-Demonstration of work with external peripheral devices. During the test, the operator can control the actuation of the relay controlling the load, if the COM port adapter is not connected, the test will not be passed. The result of the test “Working with external peripherals” is shown in the figure below.
+<h2>Тест №5 (работа с внешними периферийными устройствами)</h2>
+Демонстрация работы с внешними периферийными устройствами. В процессе выполнения теста оператор может произвести контроль сработки реле управляющего нагрузкой, если адаптер COM-порта не подключен тест не будет пройден. Результат выполнения теста “Работа с внешними периферийными устройствами” показан на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211324289-3212a933-95d7-48f4-8e4b-c88367a56f1d.png)
 
-<h2>Test №6 (detection of problem areas of interaction between an individual and DSS)</h2>
-Demonstration of the detection of problem areas of interaction between an individual and the DSS. During the test, the operator can visually control the signs of psycho-emotional states (such as anger, fear and great excitement) on the test dump of the decision maker's state. The result of the test “Detection of problem areas of interaction between an individual and DSS” is shown in the figure below.
+<h2>Тест №6 (детекция проблемных областей взаимодействия индивида и СППР)</h2>
+Демонстрация работы детекции проблемных областей взаимодействия индивида и СППР. В процессе выполнения теста оператор может произвести визуальный контроль признаков психоэмоциональных состояний (таких как гнев, страх и сильное волнение) на тестовом дампе состояния ЛПР. Результат выполнения теста “Детекция проблемных областей взаимодействия индивида и СППР” показан на рисунке ниже.
 
 ![image](https://user-images.githubusercontent.com/121159666/211324420-f52e7f87-4b8d-4233-b6f3-35fc9ff79f51.png)
 
-<h1>Test cases</h1>
-Unit and integration tests are designed to demonstrate all the main features of the strong AI software library and are test cases. The data (images) contained in the directory ../dyaivanov/strongaiva/inputdata/ is sent to the input of the examples. Next, output values are considered - input images with superimposed colorographic information about the execution of test cases.
+<h1 id="test_cases">Контрольные примеры</h1>
+Модульные и интеграционные тесты составлены для демонстрации всех основных возможностей программной библиотеки сильного ИИ и являются контрольными примерами. На вход примеров отправляются данные (изображения) содержащиеся в директории ../strongaiva/inputdata/. Далее рассмотрены выходные значения – входные изображения с наложенной цветографической информацией о выполнении контрольных примеров.
 
-<h2>Test №1 (analysis of the human skeleton configuration)</h2>
-Demonstration of the operation of the detector of primary signs, in particular, the analysis of the configuration of the human skeleton. During the test, the operator can visually control the reliable detection of primary features, in particular, the analysis of the configuration of the human skeleton. Such as the tilt of the torso, the shoulders are raised, the arms to the chest, the arms raised, the hand is close to the face. The result of the test "Analysis of the configuration of the human skeleton" is shown in the figure
+<h2>Тест №1 (анализ конфигурации скелета человека)</h2>
+Демонстрация работы детектора первичных признаков, в частности, анализ конфигурации скелета человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, анализа конфигурации скелета человека. Таких как наклон туловища, плечи подняты, руки к груди, поднятые руки, рука приближена к лицу. Результат выполнения теста “Анализ конфигурации скелета человека” показан на рисунке
 
 ![image](https://user-images.githubusercontent.com/121159666/211324553-a5301e33-0fae-4453-9c79-80ecfd931346.png)
 
-<h2>Test №2 (detection of the human face area)</h2>
-Demonstration of the detector operation, in particular - detection of the human face area. During the test, the operator can make a visual check of the reliable detection of a person's face, as well as the effect of shielding on the detection of a person's face. The result of the test “Detection of the human face area” is shown in the figure
+<h2>Тест №2 (детектирование области лица человека)</h2>
+Демонстрация работы детектора, в частности -	детектирование области лица человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования лица человека, а также влияние экранирования на детектирование лица человека. Результат выполнения теста “Детектирование области лица человека” показан на рисунке
 
 ![image](https://user-images.githubusercontent.com/121159666/211324820-1f7393e3-e7ff-41af-a3b3-d13ddee3f582.png)
 
-<h2>Test №3 (detection of the centers of the pupils of the eyes, determination of the direction of a person's gaze)</h2>
-Demonstration of the work of detecting the centers of the pupils of the eyes, determining the direction of a person's gaze. In the process of performing the test, the operator can visually control the reliable detection of primary signs, in particular, the detection of the centers of the pupils of the eyes, the determination of the direction of a person's gaze. The result of the test “Detection of the centers of the pupils of the eyes, determination of the direction of a person’s gaze” is shown in the figure
+<h2>Тест №3 (детектирование центров зрачков глаз, определение направления взгляда человека)</h2>
+Демонстрация работы детектирования центров зрачков глаз, определение направления взгляда человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, детектирование центров зрачков глаз, определение направления взгляда человека. Результат выполнения теста “Детектирование центров зрачков глаз, определение направления взгляда человека” показан на рисунке 
 
 ![image](https://user-images.githubusercontent.com/121159666/211325198-ae341236-ca06-44a3-8298-8c17914ed5ab.png)
 
-<h2>Test №4 (analysis of human facial expressions)</h2>
-Demonstration of the operation of the detector of primary signs, in particular, the analysis of facial expressions of a person's face. In the process of performing the test, the operator can visually control the reliable detection of primary signs, in particular, the analysis of facial expressions of a person's face. Analyze the detection of mimic signs such as head tilt, head down, head to the left, head to the right, eyebrows raised, palpebral fissure narrowed, look at the camera, look at the floor, look to the left, look to the right, single blink, mouth open. The result of the test “Analysis of human facial expressions” is shown in the figure
+<h2>Тест №4 (анализ мимики лица человека)</h2>
+Демонстрация работы детектора первичных признаков, в частности, анализ мимики лица человека. В процессе выполнения теста оператор может произвести визуальный контроль достоверного детектирования первичных признаков, в частности, анализ мимики лица человека. Произвести анализ детектирования мимических признаков таких как наклон головы, голова опущена, голова влево, голова вправо, брови приподняты, сужена глазная щель, взгляд в камеру, взгляд в пол, взгляд влево, взгляд вправо, однократное моргание, рот раскрыт. Результат выполнения теста “Анализ мимики лица человека” показан на рисунке
 
 ![image](https://user-images.githubusercontent.com/121159666/211325280-2edd7866-0dc7-4487-8d73-dc57f6faf60c.png)
 
-<h2>Test №5 (working with external peripherals)</h2>
-Demonstration of work with external peripheral devices. During the test, the operator can control the actuation of the relay controlling the load, if the COM port adapter is not connected, the test will not be passed.
+<h2>Тест №5 (работа с внешними периферийными устройствами)</h2>
+Демонстрация работы с внешними периферийными устройствами. В процессе выполнения теста оператор может произвести контроль сработки реле управляющего нагрузкой, если адаптер COM-порта не подключен тест не будет пройден.
 
-<h2>Test №6 (detection of problem areas of interaction between an individual and DSS)</h2>
-Demonstration of the detection of problem areas of interaction between an individual and the DSS. During the test, the operator can visually control the signs of psycho-emotional states (such as anger, fear and great excitement) on the test dump of the decision maker's state. The result of the test “Detection of problem areas of interaction between an individual and DSS” is shown in the figure
+<h2>Тест №6 (детекция проблемных областей взаимодействия индивида и СППР)</h2>
+Демонстрация работы детекции проблемных областей взаимодействия индивида и СППР. В процессе выполнения теста оператор может произвести визуальный контроль признаков психоэмоциональных состояний (таких как гнев, страх и сильное волнение) на тестовом дампе состояния ЛПР. Результат выполнения теста “Детекция проблемных областей взаимодействия индивида и СППР” показан на рисунке 
 
 ![image](https://user-images.githubusercontent.com/121159666/211325402-9469fdf0-58f1-45ee-b090-282ba25f8819.png)
 
-<h1>Classes of solving problems</h1>
-<p>The developed software is designed to solve applied problems of hybrid decision making based on the interaction of intelligent decision support systems and other intelligent systems and decision makers based on models of professional behavior and cognitive processes in difficultly formalized tasks with high uncertainty.</p>
-<p>This component can be used to solve the following classes of problems:</p>
+<h1>Классы решаемых задач</h1>
+<p>Разработанное программное обеспечение предназначено для решения прикладных задач гибридного принятия решений на базе взаимодействия интеллектуальных систем поддержки принятия решений и других интеллектуальных систем и лиц, принимающих решения на основе моделей профессионального поведения и когнитивных процессов в трудно формализуемых задачах с высокой неопределенностью.</p>
+<p>Данный компонент может использоваться при решении следующих классов задач:</p>
 <ul>
-<li>management of industrial equipment operating modes in accordance with the behavior and condition of personnel in order to reduce the risk of industrial injuries;</li>
-<li>prevention of failures and downtime in the work of assembly and conveyor lines caused by a decrease in the reaction time of employees;</li>
-<li>prevention of damage and failure of equipment, including remotely controlled vehicles, by switching them to a self-saving mode (Save Mode) based on an assessment of the psycho-emotional state of the operator.</li>
+<li>управление режимами работы промышленного оборудования в соответствии с поведением и состоянием персонала с целью снижения риска производственного травматизма;</li>
+<li>предотвращение сбоев и простоев в работе сборочных и конвейерных линий, вызванных снижением времени реакции сотрудников;</li>
+<li>предотвращение порчи и выхода из строя оборудования, в том числе дистанционно управляемых аппаратов, за счет их перевода в самосберегающий режим (Save Mode) на основе оценки психоэмоционального состояния оператора.</li>
 </ul>
 
-<h2 id="examples">Examples of solved problems</h2>
+<h2 id="examples">Примеры решаемых задач</h2>
 <ul>
-<li>monitoring and control of the emotional states of the operator when working with DSS and operators when working with industrial equipment, machine tools, control panels for production lines and other equipment of increased responsibility.</li>
-<li>detection of problem areas of interaction between the DSS and the operator of an unmanned aerial operator during industrial geodetic and other types of work.</li>
+<li>мониторинг и контроль эмоциональных состояний оператора при работе с СППР и операторов при работе с промышленным оборудованием, станками, пультами управления производственными линиями и другим оборудованием повышенной ответственности.</li>
+<li>детекция проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора при проведении промышленно-геодезических и других видов работ.</li>
+  </ul>
+Мониторинг и контроль эмоциональных состояний ЛПР или операторов оборудования повышенной ответственности необходимы для обеспечения безопасной и непрерывной работы сложных мехатронных комплексов и промышленных производственных линий. 
+Детектирование проблемных областей взаимодействия систем поддержки принятия решений и операторов беспилотных летательных аппаратов необходимо для учета скорости реакции и способности оператора к концентрации внимания.
+
+<h2>Мониторинг и контроль эмоциональных состояний ЛПР при работе со станками</h2>
+
+<b>Постановка задачи</b>
+<p>Задача контроля эмоционального состояния ЛПР востребована во многих областях промышленности и производства, рассмотрим на примере работы со сверлильным станком. Аналогично решение данной задачи может быть применено к другим станкам, например, токарному и фрезерному в том числе с ЧПУ управлением.</p>
+<b>Исходные данные</b>
+<p>В качестве исходных данных выступает видеоинформация, получаемая с камеры ноутбука/внешняя USB-камера, отслеживающая состояние ЛПР. Обратная связь с объектом управления (сверлильным станком) осуществляется через интерфейс виртуального COM-порта ПК, и реле управляющего мощной нагрузкой. В случае если система видеоанализа фиксирует эмоциональные состояния недопустимые при работе с механическим обрабатывающим станком, производится аварийная остановка станка.</p>
+<b>Решение задачи</b>
+<p>Для решения задачи применяются некоторые фрагменты примеров библиотеки алгоритмов сильного ИИ. В частности:
+  <ul>  
+    <li>пример решения задачи анализ конфигурации скелета человека;</li>
+    <li>пример детектирования области лица человека;</li>
+    <li>пример детектирования центров зрачков глаз и направления взгляда;</li>
+    <li>пример анализа мимики лица человека;</li>
+    <li>пример управления периферийными устройствами;</li>
+    <li>пример решения задачи детекции проблемных областей взаимодействия индивида и СППР.</li>
    </ul>
-Monitoring and control of the emotional states of decision makers or operators of equipment of increased responsibility are necessary to ensure the safe and continuous operation of complex mechatronic complexes and industrial production lines.
-Detection of problem areas of interaction between decision support systems and operators of unmanned aerial vehicles is necessary to take into account the reaction speed and the operator's ability to concentrate.
-
-<h2>Monitoring and control of decision makers' emotional states when working with machines</h2>
-
-<b>Problem statement</b>
-<p>The task of controlling the emotional state of decision makers is in demand in many areas of industry and production, let's consider the example of working with a drilling machine. Similarly, the solution of this problem can be applied to other machines, for example, turning and milling, including those with CNC control.</p>
-<b>Initial data</b>
-<p>The initial data is the video information received from the laptop camera / external USB camera that monitors the state of the decision maker. Feedback with the control object (drilling machine) is carried out through the interface of the virtual COM port of the PC, and the relay that controls the powerful load. If the video analysis system captures emotional states that are unacceptable when working with a mechanical processing machine, an emergency stop of the machine is performed.</p>
-<b>Solution of the problem</b>
-<p>Some fragments of examples of the strong AI algorithm library are used to solve the problem. In particular:
-   <ul>
-     <li>an example of solving the problem of analyzing the configuration of the human skeleton;</li>
-     <li>example of human face area detection;</li>
-     <li>an example of detecting the centers of the pupils of the eyes and the direction of gaze;</li>
-     <li>an example of the analysis of human facial expressions;</li>
-     <li>peripheral device control example;</li>
-     <li>an example of solving the problem of detecting problem areas of interaction between an individual and a DSS.</li>
-    </ul>
-These examples are described in detail in paragraph 5.2. The project of the task of monitoring and controlling the emotional states of decision makers when working with machines is located at ../strongaiva/TaskMachineControlAI/TaskMachineControlAI.pro
+Данные примеры подробно описаны в п.5.2. Проект задачи мониторинга и контроля эмоциональных состояний ЛПР при работе со станками находится ../strongaiva/TaskMachineControlAI/TaskMachineControlAI.pro 
 </p>
 
-<b>Results and their meaningful interpretation</b>
-<p>The results of solving the problem of monitoring and controlling the emotional states of decision makers when working with machine tools were demonstrated using a small-sized drilling machine. The machine operator simulated a situation of unacceptable behavior when working with this machine, as a result, based on the analysis of his emotional state, an emergency stop of the machine was made.</p>
-The figures below show photographs of an example of solving the task of monitoring and controlling the emotional states of an operator when working with industrial equipment using a drilling machine as an example.
+<b>Результаты и их содержательная интерпретация</b>
+<p>Результаты решения задачи мониторинга и контроля эмоциональных состояний ЛПР при работе со станками были продемонстрированы с использованием малогабаритного сверлильного станка. Оператор станка моделировал ситуацию недопустимого поведения при работе с данным станком, в результате на основе анализа его эмоционального состояния производилось аварийная остановка станка.</p>
+На рисунках ниже показаны фотографии при выполнении примера решения задачи по мониторингу и контролью эмоциональных состояний оператора при работе с промышленным оборудованием на примере сверлильного станка.
 
 ![image](https://user-images.githubusercontent.com/121159666/212894261-df0a2536-ceb3-447d-a070-7caac73a1a6c.png)
 
 ![image](https://user-images.githubusercontent.com/121159666/212894298-d09bcad6-aa45-41a5-b916-df5fc95fd37a.png)
 
-<h2>Detection of problem areas of interaction between the DSS and the operator of an unmanned aerial vehicle</h2>
+<h2>Детекция проблемных областей взаимодействия СППР и оператора беспилотного летательного аппарата</h2>
 
-<b>Problem statement</b>
-<p>In connection with the use of a large number of unmanned aerial vehicles in the modern world for a wide range of tasks, the task of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial vehicle for industrial geodetic work is the most in demand. Similarly, the solution of this problem can be applied to other unmanned aerial and ground-based vehicles.</p>
+<b>Постановка задачи</b>
+<p>В связи с применением большого количества беспилотных летательных аппаратов в современном мире для широкого спектра задач задача детекции проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора для промышленно-геодезических работ является наиболее востребованной. Аналогично решение данной задачи может быть применено к другим беспилотным летательным и наземного базирования аппаратам.</p>
 
-<b>Initial data</b>
-<p>The initial data is the video information received from the laptop camera / external USB camera that monitors the state of the decision maker. Feedback with the control object of the unmanned aerial vehicle is carried out through the interface of the virtual COM port of the PC, and the control protocol of the unmanned aerial vehicle console. If the video analysis system captures the emotional states of the decision maker that are unacceptable when working with the remote control of an unmanned aerial vehicle, a command is sent to return to the starting point.</p>
+<b>Исходные данные</b>
+<p>В качестве исходных данных выступает видеоинформация, получаемая с камеры ноутбука/внешняя USB-камера, отслеживающая состояние ЛПР. Обратная связь с объектом управления беспилотного летательного аппарата осуществляется через интерфейс виртуального COM-порта ПК, и протокола управления пульта беспилотного летательного аппарата. В случае если система видеоанализа фиксирует эмоциональные состояния ЛПР недопустимые при работе с пультом беспилотного летательного аппарата, производится отправка команды возвращения в точку старта.</p>
 
-<b>Solution of the problem</b>
-<p>To solve the problem of detecting problem areas of interaction between a DSS and an unmanned aerial vehicle operator for industrial geodetic work, some fragments of examples of a library of strong AI algorithms are used. In particular:</p>
+<b>Решение задачи</b>
+<p>Для решения задачи детекции проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора для промышленно-геодезических работ применяются некоторые фрагменты примеров библиотеки алгоритмов сильного ИИ. В частности:</p>
 <ul>
-   <li>an example of solving the problem of analyzing the configuration of the human skeleton;</li>
-   <li>example of human face area detection;</li>
-   <li>an example of detecting the centers of the pupils of the eyes and the direction of gaze;</li>
-   <li>an example of the analysis of human facial expressions;</li>
-   <li>peripheral device control example;</li>
-   <li>an example of solving the problem of detecting problem areas of interaction between an individual and a DSS.</li>
+  <li>пример решения задачи анализ конфигурации скелета человека;</li>
+  <li>пример детектирования области лица человека;</li>
+  <li>пример детектирования центров зрачков глаз и направления взгляда;</li>
+  <li>пример анализа мимики лица человека;</li>
+  <li>пример управления периферийными устройствами;</li>
+  <li>пример решения задачи детекции проблемных областей взаимодействия индивида и СППР.</li>
 </ul>
-The project of the task of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial operator for industrial and geodetic works is located in the directory
+Проект задачи детекции проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора для промышленно-геодезических работ находится в директории 
 ../strongaiva/TaskCopterControlAI/TaskCopterControlAI.pro
 
-<b>Results and their meaningful interpretation</b>
-<p>The results of solving the problem of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial operator for industrial geodetic work were demonstrated using a small-sized quadrocopter equipped with a television camera. The operator of an unmanned aerial vehicle simulated a situation of unacceptable behavior when working with this control object, as a result, based on the analysis of his emotional state, a command was sent to return to the starting point.</p>
+<b>Результаты и их содержательная интерпретация</b>
+<p>Результаты решения задачи детекции проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора для промышленно-геодезических работ были продемонстрированы с использованием малогабаритного квадрокоптера, оборудованного телевизионной камерой. Оператор беспилотного летательного аппарата моделировал ситуацию недопустимого поведения при работе с данным объектом управления, в результате на основе анализа его эмоционального состояния производилась отправка команды возвращения в точку старта.</p>
 
-The figures below show photographs when executing an example of solving the problem of detecting problem areas of interaction between the DSS and the operator of an unmanned aerial operator on the example of remote control of a quadrocopter.
- 
+На рисунках ниже показаны фотографии при выполнении примера решения задачи детекция проблемных областей взаимодействия СППР и оператора беспилотного летательного оператора на прмере дистанционного управления квадрокоптером.
+
 ![image](https://user-images.githubusercontent.com/121159666/212894468-a7978650-a171-42ba-a230-beb9388e1578.png)
 
 ![image](https://user-images.githubusercontent.com/121159666/212894509-6e8902cf-be1f-47ab-8451-4b3e7403b099.png)
