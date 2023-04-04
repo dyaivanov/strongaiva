@@ -214,3 +214,7 @@ The figures below show photographs when executing an example of solving the prob
 
 ![image](https://user-images.githubusercontent.com/121159666/212894509-6e8902cf-be1f-47ab-8451-4b3e7403b099.png)
 
+<h1 id="support">Supported by</h1>
+
+The study is supported by the [Research Center Strong Artificial Intelligence in Industry](https://sai.itmo.ru/) 
+of [ITMO University](https://en.itmo.ru/) as part of the plan of the center's program: Development and testing of an experimental prototype of a library of strong AI algorithms in terms of hybrid decision making based on the interaction of AI and decision maker based on models of professional behavior and cognitive processes of decision maker in poorly formalized tasks with high uncertainty.
