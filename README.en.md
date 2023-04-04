@@ -1,5 +1,5 @@
 [![SAI](https://github.com/ITMO-NSS-team/open-source-ops/blob/master/badges/SAI_badge_flat.svg)](https://sai.itmo.ru/)
-[![ITMO](https://github.com/ITMO-NSS-team/open-source-ops/blob/master/badges/ITMO_badge_flat_rus.svg)](https://en.itmo.ru/en/)
+[![ITMO](https://github.com/ITMO-NSS-team/open-source-ops/blob/master/badges/ITMO_badge_flat.svg)](https://en.itmo.ru/en/)
 
 [![license](https://img.shields.io/github/license/dyaivanov/strongaiva)](https://github.com/aimclub/StableGNN/blob/main/LICENSE.md)
 [![Rus](https://img.shields.io/badge/lang-ru-yellow.svg)](/README.md)
