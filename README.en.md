@@ -1,6 +1,9 @@
-The study is supported by the Research Center Strong Artificial Intelligence in Industry of ITMO University.
-<img src="https://gitlab.actcognitive.org/itmo-sai-code/organ/-/raw/main/docs/AIM-Strong_Sign_Norm-01_Colors.svg" alt="logo">
-<a href="https://github.com/dyaivanov/strongaiva/blob/main/README.ru.md">Russian version</a>
+[![SAI](https://github.com/ITMO-NSS-team/open-source-ops/blob/master/badges/SAI_badge_flat.svg)](https://sai.itmo.ru/)
+[![ITMO](https://github.com/ITMO-NSS-team/open-source-ops/blob/master/badges/ITMO_badge_flat.svg)](https://en.itmo.ru/en/)
+
+[![license](https://img.shields.io/github/license/dyaivanov/strongaiva)](https://github.com/dyaivanov/strongaiva/blob/main/LICENSE.md)
+[![Rus](https://img.shields.io/badge/lang-ru-yellow.svg)](/README.md)
+[![Mirror](https://camo.githubusercontent.com/9bd7b8c5b418f1364e72110a83629772729b29e8f3393b6c86bff237a6b784f6/68747470733a2f2f62616467656e2e6e65742f62616467652f6769746c61622f6d6972726f722f6f72616e67653f69636f6e3d6769746c6162)](https://gitlab.actcognitive.org/itmo-sai-code/strongaiva)
 
 <h1>Video analysis software module for hybrid decision making in the framework of interactive symbiotic work of artificial intelligence and a decision maker</h1>
 
@@ -211,3 +214,7 @@ The figures below show photographs when executing an example of solving the prob
 
 ![image](https://user-images.githubusercontent.com/121159666/212894509-6e8902cf-be1f-47ab-8451-4b3e7403b099.png)
 
+<h1 id="support">Supported by</h1>
+
+The study is supported by the [Research Center Strong Artificial Intelligence in Industry](https://sai.itmo.ru/) 
+of [ITMO University](https://en.itmo.ru/) as part of the plan of the center's program: Development and testing of an experimental prototype of a library of strong AI algorithms in terms of hybrid decision making based on the interaction of AI and decision maker based on models of professional behavior and cognitive processes of decision maker in poorly formalized tasks with high uncertainty.
